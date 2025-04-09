@@ -1,13 +1,15 @@
-# DEEP LEARNING APPROACH TO FORECASTING THE BALANCING MARKET
+# Enhancing Imbalance Forecasting in Great Britain’s Balancing Mechanism Market Using LSTM Deep Learning Models (Using Tensor Flow)
+
 Forecasting in the balancing mechanism(BM) market is paramount in building a robust complex
-electricity system in Great Britain (GB). With a growing number of players in this market including
+electricity system in Great Britain (GB). With a growing number of players in this market, including
 distributed generators, aggregators, and battery energy storage systems(BESS), accurate
 forecasting enables critical investment planning and optimisation of resources by all industry
-participants. This thesis explores the utilisation of machine learning techniques to forecast two
-major parts of the BM market, the imbalance volume, and the imbalance prices. The Long-short
+participants. This thesis explores using machine learning techniques to forecast two
+major parts of the BM market, the imbalance volume and the imbalance prices. The Long-short
 term memory(LSTM) deep learning architecture was compared against a baseline linear model to
-observe changes in prediction performance. The models used data provided by Elexon the GB
-regulator of the BM market to forecast imbalance volumes(MAW) and imbalance
+observe changes in prediction performance. The models used data provided by Elexon, the BM market's GB
+regulator, to forecast imbalance volumes(MAW) and 
+
 prices(GBP/MWH) per settlement period. The results showed the MAE of the Linear regression
 imbalance volume(167.40) and imbalance price(134.93). Linear regression imbalance
 volume(167.47) and imbalance price(135.63). XGBoost imbalance volume(284.65) and imbalance
